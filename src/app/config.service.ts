@@ -70,7 +70,7 @@ export class ConfigService {
   };
 
   constructor() {
-    const clientId = this.getClientIdFromUrl() || 'client2';
+    const clientId = this.getClientIdFromUrl() || 'client1';
     this.loadConfig(clientId);
   }
 
